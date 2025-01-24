@@ -123,6 +123,7 @@
                     {% endfor %}
                   </h6>
                 </div>
+                <p style="color: #ce8460;">Apply before {{ scheme.closeDate|date:"F d, Y" }}</p>
                 <div class="flex-col self-end align-self-center">
                   <a href="{% url 'schemedetail' scheme.slug%}" class="btn pt-1 pb-1 btn-outline-primary ml-auto mr-3">
                     More Details
